@@ -22,4 +22,6 @@ const CategoryMenuItem = ({ match, history, title, imageUrl, size, linkUrl }) =>
     );
 }
 
+
+
 export default withRouter( CategoryMenuItem );
