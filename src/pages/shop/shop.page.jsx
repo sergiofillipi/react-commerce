@@ -17,7 +17,7 @@ class Shop extends React.Component{
         return (
             <div className='collection'>
                
-               <input type='text' onChange={ (e) => this.setState ( { display : e.target.value  }) }/>
+               { /* <input type='text' onChange={ (e) => this.setState ( { display : e.target.value  }) }/> */ }
                { 
                   collections.map( ({ id, ...colllectionProps }) => (
                      <Collection key={id} {...colllectionProps} display={ display }/>

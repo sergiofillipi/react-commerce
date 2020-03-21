@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <Switch>
+        <Route path='/bones' component={Shop} />
         <Route path='/shop' component={Shop} />
         <Route path='/' component={HomePage} />
       </Switch>
