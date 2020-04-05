@@ -1,12 +1,12 @@
 .collection__item {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 25vw;
     align-items: center;
     padding: 5px;
     box-sizing: border-box;
     
-    @media screen and ( max-width : 1024px){
+    @media screen and ( max-width : 768px){
         width: 100%;
     }
   

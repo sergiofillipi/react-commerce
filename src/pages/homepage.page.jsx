@@ -5,7 +5,6 @@ import CategoryMenu from '../components/category-menu/category-menu.component.js
 const HomePage = ( { history, match }) =>{
     return (
         <div className='homepage'>
-            <button onClick={ () => history.push(`/shop`) }>ir</button>
             <CategoryMenu />
         </div>
     );
