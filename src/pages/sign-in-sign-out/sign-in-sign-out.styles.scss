@@ -1,0 +1,8 @@
+.sign-in-sign-out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .title {
+        margin : 10px 0;
+    }
+}

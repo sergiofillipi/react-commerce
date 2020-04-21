@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import './sign-in-sign-out.styles.scss';
-import SignIn from '../../components/sign-in/sign-in.component';
+import "./sign-in-sign-out.styles.scss";
+import SignIn from "../../components/sign-in/sign-in.component";
 
 const SignInSignOutPage = () => {
-    return (
-        <div className='sign-in-sign-out'>
-            Sign In
-            <SignIn />
-        </div>
-    );
-}
+      return (
+            <div className="sign-in-sign-out">
+                  <SignIn />
+            </div>
+      );
+};
 
 export default SignInSignOutPage;
